@@ -32,5 +32,5 @@ tensorflow-cpu==2.3.0
 termcolor==1.1.0
 urllib3==1.26.5
 Werkzeug==2.0.0
-ultralytics==8.0.207
+ultralytics==8.0.206
 opencv-python==4.8.1.78
