@@ -21,7 +21,7 @@ scipy==1.7.3
 six==1.16.0
 tensorboard==2.11.2
 termcolor==2.3.0
-torch==2.1.0
+torch==1.13.1
 torchvision==0.16.0
 ultralytics==8.0.207
 urllib3==1.26.14
