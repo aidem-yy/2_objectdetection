@@ -6,6 +6,7 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 import cv2
+import io
 
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
@@ -66,7 +67,7 @@ def show_bbox_tmp(img,boxes,scores,color=(0,255,0)):
         cv2.putText(img,score,(box[0],y),cv2.FONT_HERSHEY_SIMPLEX,0.5,color,2)
 
 # if __name__ == "__main__":
-#     app.run()
+#      app.run()
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 8080))
