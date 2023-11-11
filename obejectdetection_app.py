@@ -18,7 +18,7 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 #学習済みモデルをロード
-model = YOLO('./LFS/best.pt')
+model = YOLO('./best.pt')
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
